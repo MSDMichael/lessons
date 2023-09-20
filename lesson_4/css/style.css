@@ -1,0 +1,82 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.welcome p {
+	color: red;
+}
+
+.welcome span {
+	color: black;
+}
+
+.welcome .new-text{
+	color: black;
+}
+
+.new-text{
+	color: saddlebrown;
+}
+
+.title {
+	color: orange;
+}
+
+p.sub-title {
+ color: blue;
+}
+
+.list {
+	color: burlywood;
+}
+
+.item {
+}
+
+.item-color{
+	color: violet;
+}
+
+.link {
+	color: green;
+}
+
+.link mark{
+	color: red;
+}
+
+#some-li-id{
+	color: maroon;
+}
+
+.sub-title{
+	color: coral;
+}
+
+[class*="blue"] {
+	color: blue;
+}
+
+.text-purple > p {
+	color: purple;
+}
+
+ol.blue ~ p{
+	color: fuchsia;
+}
+
+.text-purple ~ p, mark {
+	color: skyblue;
+}
+
+.text + div {
+	color: steelblue;
+}
+
+div + h2{
+	color: aquamarine;
+}
+
+.about-text.text-about{
+	color: teal;
+}
