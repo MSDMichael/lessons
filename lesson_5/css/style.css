@@ -1,0 +1,121 @@
+/* ========================= ШРИФТИ =============================== */
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,italic,500,700&display=swap");
+
+
+/* Підключення вручну */
+ @import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif; 
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+.consalting {
+}
+.consalting-title {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	text-transform: capitalize;
+}
+.consalting-text {
+	font-weight: 400;
+	line-height: 1.46;
+	
+}
+.consalting-sub-title {
+	color: #6B77E5;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+.project {
+}
+.project-title {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+	text-transform: capitalize;
+}
+.project-text {
+	font-weight: 400;
+	line-height: 1.47;
+}
+.project-list {
+	font-weight: 500;
+	line-height: 1.47;
+	text-indent: 40px;
+}
+.item {
+}
+.homework{
+	font-family: "Roboto"; 
+	font-size: 18px;
+	color: rgba(5, 53, 83, 0.9);
+}
+.homework-title {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 3px 3px 10px rgba(8, 118, 12, 0.644);
+}
+.homework-text {
+	font-style: italic;
+	text-indent: 20px;
+}
+.homework-list{
+	font-family: "Montserrat";
+	font-size: 20px;
+	text-decoration: underline;
+	letter-spacing: 5px;
+	line-height: 1.5;
+	color: rgba(222, 133, 16, 0.911);
+}
+.homework-main {
+	font-family: "Montserrat";
+}
+.homework-main-title {
+	font-weight: 700;
+	font-size: 40px;
+	text-align: right;
+}
+.homework-main-text .text {
+	text-decoration: line-through;
+}
+.homework-main-text .text-main {
+	text-transform: uppercase;
+	word-spacing: 15px;
+	text-align: justify;
+}
+.homework-main-link{
+	font-family: "FrankRuhlLibre";
+	font-weight: 800;
+	font-size: 30px;
+	text-transform: lowercase;
+	text-align: center;
+	color: rgba(224, 8, 8, 0.9);
+	text-shadow: 3px 3px 10px rgba(31, 13, 97, 0.644), -5px -2px 2px rgba(165, 142, 11, 0.644);
+}
+.work {
+	font-family: "Beermoney";
+}
+.work-text {
+	font-size: 40px;
+}
