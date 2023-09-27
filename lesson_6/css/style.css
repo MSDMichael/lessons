@@ -1,0 +1,172 @@
+/* ========================= ШРИФТИ =============================== */
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+
+
+
+/* Підключення вручну */
+/* @import url("fonts.css");*/
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif; 
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+.homework-title{
+	text-align: center;
+	font-size: 60px;
+	padding: 30px 0;
+	background-color: #e9e5e5;
+}
+.consalting {
+	max-width: 692px;
+	margin: 0 auto;
+}
+.consalting-img {
+	margin-bottom: 37px;
+}
+.consalting-title {
+	color: #37393F;
+	font-family: "Poppins";
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+.consalting-text {
+	line-height: 1.46;
+	margin-bottom: 42px;
+}
+.consalting h3 + .consalting-text {
+	margin-bottom: 40px;
+}
+.consalting-sub-title {
+	color: #6B77E5;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+.benefits {
+	font-size: 0;
+}
+.benefits-img {
+	max-width: 330px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+.benefits-block {
+	max-width: 325px;
+	display: inline-block;
+}
+.benefits-title {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 15px;
+	
+}
+.benefits-sub-title {
+	color: #40DDB6;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 127%;
+	margin-bottom: 24px;
+}
+.benefits-list {
+}
+.benefits-item {
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+.jewels {
+	background-color: #FFF9F4;
+	padding: 140px 0;
+}
+.develop {
+	max-width: 1170px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.develop-block {
+	width: 50%;
+	display: inline-block;
+	padding-right: 20px;
+}
+.develop-sub-title {
+	color: #D06B00;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+
+}
+.develop-title {
+	color: #0E333D;
+	font-family: "DM Serif Text";
+	font-size: 59px;
+	line-height: 1.47;
+	margin-bottom: 25px;
+}
+.develop-text {
+	color: #474747;
+	font-size: 20px;
+	line-height: 1.8;
+}
+.develop-img {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+.develop-img img{
+	max-width: 50%;
+	padding-left: 20px;
+}
+
+.test {
+	padding: 50px 0;
+	background-color: #f7ec89;
+	font-size: 15px;
+}
+.block {
+	display: inline-block;
+	background-color: #7112ca;
+	color: #000000;
+	overflow: scroll;
+	height: 150px;
+	padding: 15px;
+	width: 35%;
+	margin-right: 35px;
+}
+.block-m {
+	display: inline-block;
+	width: 35%;
+}
+
+.block-m-item {
+	margin-top: 20px;
+	background-color: #1cdf50;
+	box-shadow: 5px 3px 10px #df811c;
+}
+
+.block-img{
+	display: inline-block;
+	width: 5%;
+	vertical-align: bottom;
+	padding-left: 150px;
+}
