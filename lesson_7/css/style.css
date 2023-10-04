@@ -1,0 +1,355 @@
+/* ========================= ШРИФТИ =============================== */
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+
+
+
+
+
+/* Підключення вручну */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif; 
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+.homework-title {
+	text-align: center;
+	font-size: 60px;
+	padding: 30px 0;
+	background-color: #e9e5e5;
+}
+
+.consulting{
+	
+}
+.licencing {
+	max-width: 1248px;
+	padding: 150px 15px;
+	margin: 0 auto;
+}
+.licencing-label {
+	text-align: center;
+}
+.square {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;;
+}
+.licencing-heder-sub-title {
+	color: #37393F;
+	font-weight: 500;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.licencing-title,
+.licencing-sub-title,
+.licencing-set-title {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	text-transform: capitalize;
+}
+
+.licencing-title {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 70px;
+	
+}
+.licencing-icon-content {
+	margin-bottom: 110px;
+}
+.licencing-sub-title {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 13px;
+}
+.licencing-text {
+	line-height: 1.46; 
+	margin-bottom: 35px;
+}
+.licencing-set-title {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.licencing-set-title a{
+	color: #40DDB6;
+	font-size: 30px;
+	font-weight: 400;
+	padding-left: 15px;
+}
+.licencing-photography-content {
+	margin-bottom: 110px;
+}
+.licencing-set-text {
+	color: #40DDB6;
+	margin-bottom: 40px;
+}
+.licencing-fonts {
+	margin-bottom: 40px;
+}
+.licencing-fonts-text a{
+	color: #40DDB6;
+}
+
+
+
+.project {
+	max-width: 860px;
+	padding: 50px 15px 150px;
+	margin: 0 auto;
+	
+}
+.project-title {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	text-transform: capitalize;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+.project-text {
+	line-height: 1.47;
+	margin-bottom: 35px;
+}
+.project-text p{
+	margin-bottom: 30px;
+}
+.project-list {
+	font-weight: 500;
+	line-height: 1.47;
+	text-indent: 40px;
+	margin-bottom: 35px;
+}
+.project-list li{
+	margin-bottom: 30px;
+}
+.item {
+}
+
+
+.euphoria {
+	font-family: "Causten", sans-serif;
+	color: #807D7E;
+	font-size: 20px;
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+}
+.clothing {
+	max-width: 1240px;
+	padding: 100px 20px;
+	margin: 0 auto;
+}
+.clothing-title-block {
+	margin-bottom: 30px;
+}
+.purrple-line {
+	display: inline-block;
+	width: 6px;
+	height: 28px;
+	border-radius: 10px;
+	background-color: #8A33FD;
+	margin-left: -20px;
+	vertical-align: middle;
+}
+
+.clothing-title,
+.clothing-sub-title,
+.clothing-link {
+	font-family: "Core Sans C", sans-serif;
+	font-weight: 700;
+}
+
+.clothing-title {
+	display: inline-block;
+	font-size: 28px;
+	line-height: 1.2;
+	letter-spacing: 0.56px;
+	padding-left: 10px;
+	vertical-align: middle;
+	color: #3C4242;
+}
+.clothing-sub-title {
+	line-height: 1.67;
+	letter-spacing: 0.4px;
+	margin-bottom: 30px;
+}
+.clothing-text {
+	margin-bottom: 25px;
+}
+.clothing-text p{
+	margin-bottom: 20px;
+}
+.clothing-text span{
+	font-weight: 700;
+}
+.clothing-link {
+}
+
+.jewellery {
+	font-family: "Cormorant Infant", sans-serif;
+}
+.develop {
+	max-width: 1140px;
+	padding: 50px 20px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.develop-block {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 50%;
+	padding-right: 40px;
+}
+.develop-sub-title {
+	color: #D58417;;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.develop-title {
+	font-size: 64px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 35px;
+	text-transform: capitalize;
+}
+.develop-text {
+	color: #606060;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.develop-img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+
+}
+
+.left-img,
+.right-img {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 235px;
+	border: 1px solid #502203;
+	box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.3);
+	padding-top: 10px;
+}
+
+.left-img {
+	max-width: 33%;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.right-img {
+}
+.img-item {
+	max-width: 100%;
+	border-radius: 235px;
+	margin-left: -10px;
+   margin-bottom: -10px;
+}
+
+.homework {
+	background-color: #c3c5c3;
+}
+.homework-block {
+	max-width: 1200px;
+	padding: 50px 20px;
+	margin: 0 auto;
+	color: #000;
+}
+.block-b {
+	background-color: #11c129;
+	border: 5px dashed #2b0993;
+	padding: 10px;
+	margin-bottom: 20px;
+	opacity: 0.6;
+}
+
+.block-s {
+	border: 3px dotted #935c09;
+	box-shadow: inset 5px 5px 20px 1px #000;
+	padding: 15px;
+	text-indent: 25px;
+	margin-bottom: 20px;
+}
+.block-c {
+	width: 50px;
+	height: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px;
+	font-size: 14px;
+	border-radius: 50%;
+	border: 5px dashed #2b0993;
+	box-shadow: inset 2px 2px 20px 1px rgba(0, 0, 0, 0.5);
+	background-color: #e5c292;
+
+}
+.rhombus {
+	margin: 25px auto;
+	width: 290px;
+	height: 290px;
+	border-top: 85px solid red;
+	border-bottom: 85px solid red;
+	border-left: 170px solid orange;
+	border-right: 50px solid orange;
+	background-color: #fbedd7;
+	outline: 5px solid #2b0993;
+}
+
+
+.block-test {
+}
+.block-r-color {
+	margin: 0px auto;
+	max-width: 50%;
+	height: 300px;
+	background-color: red;
+	border: 5px dashed #2b0993;
+	border-radius: 20px;
+}
+.block-b-color {
+	margin: -200px auto 0px;
+	max-width: 40%;
+	height: 250px;
+	background-color:blue;
+	border: 5px dashed #c1be18;
+}
+.block-o-color {
+	margin: -150px auto 0px;
+	background-color: orange;
+	max-width: 30%;
+	height: 200px;
+	outline: 5px solid #2b0993;
+}
+.block-g-color {
+	margin: -100px auto 0px;
+	background-color: green;
+	max-width: 20%;
+	height: 150px;
+	border-bottom: 5px dashed #ed19b4;
+	border-left: 5px dashed #ed19b4;
+	border-top-right-radius: 30px;
+}
