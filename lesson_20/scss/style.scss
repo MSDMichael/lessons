@@ -1,0 +1,226 @@
+// Підключення шрифтів
+@import "_fonts.scss";
+
+// Скидання стилів
+@import "_reset.scss";
+
+// Стилі загальних блоків (компонентів)
+// @import url("common.css");
+
+// Основні стилі
+body {
+	font-family: "Noto Serif", sans-serif;
+	color: #000;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+	> main {
+	  flex-grow: 1;
+	}
+ }
+// Обмежуючий контейнер
+[class*="__container"] {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.header {
+	background-color: #7a956b;
+	padding: 25px;
+	text-align: center;
+	font-size: 36px;
+	color: #fff;
+}
+.page {
+	background: #fefaf4;
+	display: flex;
+	flex-direction: column;
+	// .page__jewels
+	&__jewels {
+	}
+}
+.jewels {
+	position: relative;
+	// .jewels__decor-image
+	&__decor-image {
+		position: absolute;
+		width: 150px;
+		height: 285px;
+		bottom: 210px;
+		left: -50px;
+		aspect-ratio: 110/285;
+		object-fit: cover;
+		overflow: hidden;
+		@media (max-width: 1440.98px) {
+			display: none;
+		}
+	}
+	// .jewels__container
+	&__container {
+		margin-top: 90px;
+		margin-bottom: 200px;
+		@media (max-width: 991.98px) {
+			margin-top: 50px;
+			margin-bottom: 100px;
+		}
+	}
+	// .jewels__body
+	&__body {
+		display: flex;
+		flex-wrap: wrap;
+		@media (max-width: 767.98px) {
+			flex-direction: column;
+		 }
+	}
+	// .jewels__image-right
+	&__image-right {
+		flex: 0 1 35%;
+		width: 100%;
+		max-height: 100%;
+		aspect-ratio: 435/686;
+		object-fit: cover;
+		overflow: hidden;
+		//object-position: right;
+		@media (max-width: 991.98px) {
+			flex: 0 1 25%;
+		}
+		@media (max-width: 767.98px) {
+			aspect-ratio: 2/1;
+			height: 300px;
+		 }
+		 @media (max-width: 479.98px) {
+			aspect-ratio: 1/1;
+		}
+		
+	}
+	// .jewels__content
+	&__content {
+		flex: 1 1 47%;
+		padding: 67px 50px 70px 50px;
+		@media (max-width: 1249.98px) {
+			padding: 50px 25px;
+		}
+		@media (max-width: 991.98px) {
+			flex: 0 1 50%;
+		}
+		@media (max-width: 767.98px) {
+			padding: 25px 0px;
+		 }
+	}
+	// .jewels__subtitle
+	&__subtitle {
+		color: #ff4242;
+		font-size: 18px;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+		@media (max-width: 767.98px) {
+			margin-bottom: 20px;
+		 }
+	}
+	// .jewels__title
+	&__title {
+		font-size: 50px;
+		font-weight: 700;
+		line-height: 1.24;
+		text-transform: capitalize;
+		margin-bottom: 30px;
+		@media (max-width: 991.98px) {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+	}
+	// .jewels__text
+	&__text {
+		color: #606060;
+		font-family: "Inter",sans-serif;
+		font-size: 20px;
+		line-height: 1.8;
+		margin-bottom: 35px;
+		@media (max-width: 991.98px) {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+	}
+	// .jewels__link
+	&__link {
+		display: inline-flex;
+		align-items: center;
+		font-size: 47px;
+		font-weight: 600;
+		line-height: 1.24;
+		column-gap: 15px;
+		transition: all 0.3s linear;
+		position: relative;
+		&::before{
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 80%;
+			height: 3px;
+			transition: all 0.3s;
+			background-color: #0e333d;
+		}
+		&::after{
+			content: "";
+			flex: 0 1 32px;
+			width: 32px;
+			height: 34px;
+			background: url('/img/icon/arrow.webp') 0 0 /contain no-repeat;
+			transition: all 0.3s linear;
+		}
+		@media (max-width: 991.98px) {
+			font-size: 30px;
+			&::after{
+				flex: 0 1 22px;
+    			width: 25px;
+				height: 26px;
+			}
+		}
+		@media (any-hover: hover) {
+			&:hover {
+				&::after{
+					transform: scale(1.15);
+				}
+				&::before{
+					left: 50%;
+					width: 0;
+				}
+			}
+		}
+	}
+	// .jewels__image-left
+	&__image-left {
+		flex: 0 1 18%;
+		width: 100%;
+		max-height: 100%;
+		aspect-ratio: 258/406;
+		object-fit: cover;
+		margin-top: 255px;
+		margin-bottom: 25px;
+		overflow: hidden;
+		@media (max-width: 1249.98px) {
+			margin: 0;
+		}
+		@media (max-width: 991.98px) {
+			flex: 0 1 25%;
+		}
+		@media (max-width: 767.98px) {
+			aspect-ratio: 2/1;
+		 }
+		 @media (max-width: 479.98px) {
+			aspect-ratio: 1/1;
+		}
+	}
+}
+.footer {
+	background-color: #7a956b;
+	padding: 25px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
