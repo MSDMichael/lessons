@@ -253,7 +253,7 @@ body {
   flex: 0 1 32px;
   width: 32px;
   height: 34px;
-  background: url("/img/icon/arrow.webp") 0 0/contain no-repeat;
+  background: url("../img/icon/arrow.webp") 0 0/contain no-repeat;
   transition: all 0.3s linear;
 }
 @media (max-width: 991.98px) {
